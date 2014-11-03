@@ -5,52 +5,109 @@
 		color: #ffffff;
 		font-family: Helvetica;
 		font-size: 13px;
-		background: #9E312C;
+		background: #ffffff;
 	}
 
 	.logo {
 	    left: 31px;
 	    position: absolute;
-	    top: 46px;
+	    top: 10px;
 	}
 
 	.name {
 		font-size: 19px;
 		position: absolute;
-		top: 40px;
-		left: 205px;
+		top: 10px;
+		left: 180px;
+		color: #9E312C;
 	}
 
 	.subtitle {
-		font-style: italic;;
 		font-size: 13px;
 		position: absolute;
+		top: 32px;
+		left: 180px;
+		color: #8899a6;
+	}
+
+	.skills {
+		font-size: 12px;
+		left: 180px;
+		position: absolute;
 		top: 62px;
-		left: 205px;
+		color: #000000;
+	}
+
+	.skills-inner {
+	    font-size: 12px;
+	    left: 200px;
+	    position: absolute;
+	    top: 62px;
+	    color: #8899a6;
 	}
 
 	.info {
-	    font-size: 12px;
-	    left: 205px;
+		font-size: 12px;
+	    left: 25px;
 	    position: absolute;
-	    top: 97px;
+	    top: 140px;
+	    color: #8899a6;
+	}
+
+	.irc {
+		font-size: 12px;
+	    left: 25px;
+	    position: absolute;
+	    top: 157px;
+	    color: #8899a6;
+	}
+
+	.links {
+	    font-size: 12px;
+	    left: 180px;
+	    position: absolute;
+	    top: 115px;
+	    color: #000000;
+	}
+
+	.links-inner {
+	    font-size: 12px;
+	    left: 200px;
+	    position: absolute;
+	    top: 115px;
+	    color: #8899a6;
 	}
 
 	.bottom-link {
         font-size: 15px;
-        right: 10px;
         position: absolute;
-        top: 198px;
+        background: #9E312C;
+        width: 100%;
+        height: 40px;
+        left:0px;
+        bottom:0px;
+	}
+
+	.bottom-link-text {
+		font-size: 15px;
+        right: 20px;
+        position: absolute;
+        bottom: 15px;
+        background: #9E312C;
 	}
 </style>
 
 <div id="card" class="reps-card">
 	<div class="logo">
 	    <!-- Provide absolute path for images -->
-		<img src="http://cards.mozillakerala.org/template_images/reps-logo.png"/>
+		<img src="http://card-oquanox.rhcloud.com/template_images/reps-logo.png" height="120px" width="100px"/>
 	</div>
-	<div class="name" contenteditable="true">John Doe</div>
-	<div class="subtitle" contenteditable="true">Mozillian</div>
-	<div class="info" contenteditable="true">john@example.com<br/>9876543210<br/>IRC: xxx</div>
-	<div class="bottom-link">www.mozilla.org</div>
+	<div class="name" contenteditable>Tanay Pant</div>
+	<div class="subtitle" contenteditable>Mozilla Representative in India</div>
+	<div class="skills"><img src="http://i.imgur.com/6zfwGSx.png" /></div><div class="skills-inner" contenteditable>Web Development, Evangelism, Community Building</div>
+	<div class="info" contenteditable>Twitter: <span style="color: #9E312C;">@tanay1337</span></div>
+	<div class="irc" contenteditable>IRC Nick: <span style="color: #9E312C;">Tanay</span></div>
+	<div class="links"><img src="http://i.imgur.com/p8Kakk4.png" /></div><div class="links-inner" contenteditable>+91 - 9876543210<br/>tanay1337@gmail.com<br/>reps.mozilla.org/u/tanay1337</div>
+	<div class="bottom-link"></div>
+	<div class="bottom-link-text">reps.mozilla.org</div>
 </div>
