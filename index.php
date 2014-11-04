@@ -68,7 +68,7 @@
             <iframe id="gen-template-frame" src="templates/Reps-Card 1.html"></iframe>
             <iframe id="gen-template-back-frame" src="templates/back/Reps-Card 1.html"></iframe>
             
-            <form id="gen-create-form" action="generate.php" method="post">
+            <form id="gen-create-form" action="generate.php" method="post" target="_blank">
                 <input name="paper" type="hidden" value="card"/>
                 <input name="orientation" type="hidden" value="portrait"/>
 
@@ -115,7 +115,7 @@
 
         </script>
         
-        <!-    Piwik Analytics  -->
+        <!--    Piwik Analytics  -->
         <script type="text/javascript">
             var _paq = _paq || [];
             _paq.push(['trackPageView']);
